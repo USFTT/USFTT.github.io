@@ -1,3 +1,12 @@
+.nav-link {
+  display: inline-block;
+  transition: color 0.25s ease-in;
+}
+
+.navbar-nav .active.hr {
+  display: none;
+}
+
 #footer-container a {
   color: #f8f9fa !important;
 }
@@ -12,11 +21,23 @@
   color: gray !important;
 }
 
-.nav-link {
-  display: inline-block;
-  transition: color 0.25s ease-in;
-}
-
 #footer-container a.nav-link:hover {
   color: gray !important;
+}
+
+.officer {
+  background-color: lightgoldenrodyellow;
+  border-radius: 0 100vw 100vw 0;
+  gap: 2rem;
+  padding-block: 2rem;
+  padding-left: 9rem;
+}
+
+.team-button {
+  padding-block: 4.5rem !important;
+  transition: transform 0.35s ease-out !important;
+}
+
+.team-button:hover {
+  transform: scale(1.1);
 }
