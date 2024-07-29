@@ -41,3 +41,20 @@
 .team-button:hover {
   transform: scale(1.1);
 }
+
+#carouselExampleIndicators{
+  max-height: 100%;
+}
+
+.carousel-inner {
+  display: flex;
+  /* height: 75vh; */
+  width: 100%;
+  object-fit: contain;
+  /* align-content:center !important;
+  justify-content: center !important; */
+}
+
+.carousel-item {
+  /* margin-right: -75% !important; */
+}
