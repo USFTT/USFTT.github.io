@@ -33,6 +33,14 @@
   padding-left: 9rem;
 }
 
+#Schedule {
+  background-color: lightgoldenrodyellow;
+  border-radius: 180px 0 0 180px;
+  gap: 2rem;
+  padding-block: 3rem;
+  padding-left: 8rem !important;
+}
+
 .team-button {
   padding-block: 4.5rem !important;
   transition: transform 0.35s ease-out !important;
@@ -57,4 +65,30 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.player-info_card{
+  background-color: gray;
+  height: 85%;
+  width: 75%;
+  align-self: center;
+  filter: drop-shadow(0 0 3.5rem blue);
+}
+
+.image-container{
+  background: aqua;
+  overflow: hidden;
+  width: 25%;
+  height:80%;
+  margin-left: 4%;
+  margin-right: 2%;
+  align-self: center;
+}
+
+.info-container{
+  background-color: rgb(164, 86, 206);
+  width: 65%;
+  height:80%;
+  margin-right: 4%;
+  align-self: center;
 }
