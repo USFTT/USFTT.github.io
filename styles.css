@@ -25,6 +25,24 @@
   color: gray !important;
 }
 
+#Officers{
+  width: 50%;
+}
+
+#Schedule{
+  width: 50%;
+}
+
+@media (max-width: 1400px) {
+  #Officers {
+      width: 100%;
+  }
+
+  #Schedule{
+    width: 100%;
+}
+}
+
 .officer {
   background-color: lightgoldenrodyellow;
   border-radius: 0 100vw 100vw 0;
