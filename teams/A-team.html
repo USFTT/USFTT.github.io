@@ -32,6 +32,7 @@
       class="navbar navbar-expand-md navbar-dark bg-dark py-4"
     ></nav>
 
+    <!-- Body Section -->
     <div class="vw-100 vh-100 align-content-evenly py-5">
       <div
         class="d-inline-flex h-auto w-100 justify-content-between align-items-center"
@@ -45,6 +46,7 @@
         <div
           id="carouselExampleIndicators"
           class="carousel slide h-100"
+          data-bs-ride="carousel"
           data-bs-theme="dark"
         >
           <div class="carousel-indicators">
@@ -70,7 +72,7 @@
             ></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="10000">
               <div class="player-entry">
                 <div
                   class="player-info_card rounded justify-content-center align-content-center d-inline-flex"
@@ -137,7 +139,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="10000">
               <div class="player-entry">
                 <img
                   src="/teams/images/pepe-err.png"
@@ -145,7 +147,7 @@
                 />
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="10000">
               <div class="player-entry">
                 <img
                   src="/teams/images/Image-err.png"
