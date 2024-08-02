@@ -120,3 +120,16 @@
   margin-right: 4%;
   align-self: center;
 }
+
+.sponsor-banner{
+  width: 300px !important;
+  height: 100px !important;
+}
+
+#Funding-Usage{
+  height: 60vh;
+}
+
+#Contact_Us{
+  height: 60vh;
+}
