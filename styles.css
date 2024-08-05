@@ -1,3 +1,4 @@
+/* NAV BAR CSS */
 .nav-link {
   display: inline-block;
   transition: color 0.25s ease-in;
@@ -6,7 +7,10 @@
 .navbar-nav .active.hr {
   display: none;
 }
+/* NAV BAR CSS END */
 
+
+/* FOOTER CSS START */
 #footer-container a {
   color: #f8f9fa !important;
 }
@@ -24,7 +28,10 @@
 #footer-container a.nav-link:hover {
   color: gray !important;
 }
+/* FOOTER CSS END  */
 
+
+/* INDEX / HOMEPAGE CSS START */
 #Officers {
   width: 50%;
 }
@@ -64,7 +71,10 @@
   padding-block: 3rem;
   padding-left: 8rem !important;
 }
+/* INDEX / HOMEPAGE CSS END */
 
+
+/* TEAMS MAIN PAGE CSS START */
 .team-button {
   background-image: url(/teams/images/pepe-err.png);
   background-position: center;
@@ -108,7 +118,11 @@
     width: 100% !important;
   }
 }
+/* TEAMS MAIN PAGE CSS END */
 
+
+
+/* TEAMS SUB PAGES CSS START */
 .back_btn {
   color: black;
   transition: all 0.15s ease-out;
@@ -159,7 +173,11 @@
   margin-right: 4%;
   align-self: center;
 }
+/* TEAMS SUB PAGES CSS END */
 
+
+
+/* SPONSORS PAGE CSS START */
 .sponsor-banner {
   width: 300px !important;
   height: 100px !important;
@@ -173,6 +191,11 @@
   height: 60vh;
 }
 
+/* SPONSORS PAGE CSS END */
+
+
+
+/* GENERAL CSS START*/
 .links-BlackToGray {
   color: black;
   transition: all 0.15s ease-out;
@@ -181,3 +204,4 @@
 .links-BlackToGray:hover {
   color: gray;
 }
+/* GENERAL CSS END*/
