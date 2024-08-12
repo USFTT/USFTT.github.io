@@ -145,7 +145,7 @@
 }
 
 .player-entry {
-  background-color: crimson;
+  /* background-color: crimson; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -153,15 +153,15 @@
 }
 
 .player-info_card {
-  background-color: gray;
+  background-color: #353839;
   height: 95%;
   width: 65%;
   align-self: center;
-  filter: drop-shadow(0 0 3.5rem blue);
+  filter: drop-shadow(0 0 3.5rem black);
 }
 
 .image-container {
-  background: aqua;
+  border: dashed red;
   overflow: hidden;
   width: 25%;
   height: 80%;
@@ -171,7 +171,7 @@
 }
 
 .info-container {
-  background-color: rgb(164, 86, 206);
+  border: dashed red;
   width: 65%;
   height: 80%;
   margin-right: 4%;
