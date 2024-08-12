@@ -26,11 +26,11 @@
 
 #footer-container a.footer-icon:hover {
   transform: scale(1.1) !important;
-  color: gray !important;
+  color: #7E96A0 !important;
 }
 
 #footer-container a.nav-link:hover {
-  color: gray !important;
+  color: #7E96A0 !important;
 }
 /* FOOTER CSS END  */
 
