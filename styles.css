@@ -36,6 +36,14 @@
 
 
 /* INDEX / HOMEPAGE CSS START */
+.about-us-container{
+  background-image: url(/teams/images/Image-err.png);
+  /* background-size: cover; */
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 #Officers {
   width: 50%;
 }
