@@ -1,0 +1,46 @@
+/* NAV BAR CSS */
+.nav-link {
+    display: inline-block;
+    transition: color 0.25s ease-in;
+  }
+  
+  .navbar-nav .active.hr {
+    display: none;
+  }
+  /* NAV BAR CSS END */
+  
+  
+  /* FOOTER CSS START */
+  .bg-footer {
+    background-color: #006747;
+  }
+  
+  #footer-container a {
+    color: #f8f9fa !important;
+  }
+  
+  .footer-icon {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in;
+  }
+  
+  #footer-container a.footer-icon:hover {
+    transform: scale(1.1) !important;
+    color: #7E96A0 !important;
+  }
+  
+  #footer-container a.nav-link:hover {
+    color: #7E96A0 !important;
+  }
+  /* FOOTER CSS END  */
+
+  /* SHARED CSS START*/
+.links-BlackToGray {
+    color: black;
+    transition: all 0.15s ease-out;
+  }
+  
+  .links-BlackToGray:hover {
+    color: gray;
+  }
+  /* SHARED CSS END*/

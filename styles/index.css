@@ -1,0 +1,53 @@
+/* INDEX / HOMEPAGE CSS START */
+.about-us-container{
+    background-image: url(/teams/images/Image-err.png);
+    /* background-size: cover; */
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  #Officers {
+    width: 50%;
+  }
+  
+  #Schedule {
+    background-image: url(/teams/images/pepe-err.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  @media (max-width: 1400px) {
+    #Officers {
+      width: 100%;
+    }
+  
+    #schedule-banner {
+      width: 100%;
+    }
+  }
+  
+  .officer {
+    background-color: #EDEBD1;
+    border-radius: 0 100vw 100vw 0;
+    gap: 2rem;
+    padding-block: 2rem;
+    padding-left: 9rem;
+  }
+  
+  @media (max-width: 715px) {
+    .officer {
+      padding-left: 1.5rem;
+    }
+  }
+  
+  .schedule-banner {
+    width: 50%;
+    background-color: #EDEBD1;
+    border-radius: 180px 0 0 180px;
+    gap: 2rem;
+    padding-block: 3rem;
+    padding-left: 8rem !important;
+  }
+  /* INDEX / HOMEPAGE CSS END */
