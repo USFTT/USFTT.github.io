@@ -1,6 +1,6 @@
 /* INDEX / HOMEPAGE CSS START */
 .about-us-container{
-    background-image: url(/images/homepage/Team-pic.jpg);
+    background-image: url(../images/homepage/Team-pic.jpg);
     background-size: cover;
     background-position: 0% 68%;
   }
@@ -18,7 +18,7 @@
   }
   
   #WindowImg {
-    background-image: url(/images/homepage/bottom-image.jpg);
+    background-image: url(../images/homepage/bottom-image.jpg);
     background-size: cover;
     background-position: 50% 0%;
     background-attachment: fixed;
