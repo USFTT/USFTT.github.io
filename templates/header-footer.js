@@ -1,14 +1,20 @@
 // Loading Header and Footer into files
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("header.html")
-    .then((response) => response.text())
+  fetch("./templates/header.html")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.text();
+    })
+      // response.text())
     .then((data) => {
       document.getElementById("header-container").innerHTML = data;
       updateActiveLink();
     })
     .catch((error) => console.error("Error loading the header:", error));
 
-  fetch("footer.html")
+  fetch("./templates/footer.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("footer-container").innerHTML = data;
