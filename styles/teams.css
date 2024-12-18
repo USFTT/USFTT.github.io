@@ -12,7 +12,7 @@
   
   .team-button:hover {
     filter: grayscale(0%);
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   
   .contain-team-a {
@@ -21,9 +21,15 @@
   }
   
   .contain-team-b {
+    /* clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 40% 100%); */
+    width: 100% !important;
+  }
+
+  .contain-team-c {
     clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 40% 100%);
     width: 75% !important;
   }
+  
   
   .btn-team-a:hover {
     -webkit-text-fill-color: lightblue;
@@ -96,5 +102,27 @@
     height: 80%;
     margin-right: 4%;
     align-self: center;
+    flex-direction: column;
   }
+
+  
+  @media (max-width: 896px) {
+    .player-info_card{
+      flex-direction: column;
+    }
+    
+    .image-container{
+      width: 90%;
+      height: 90%;
+      margin: 0%;
+    }
+
+    .info-container {
+      border: dashed red;
+      width: 90%;
+      height: 90%;
+      margin: 0%;
+    }
+  }
+
   /* TEAMS SUB PAGES CSS END */
