@@ -1,6 +1,6 @@
 /* TEAMS MAIN PAGE CSS START */
 .team-button {
-    background-image: url(/teams/images/pepe-err.png);
+    background-image: url(../teams/images/pepe-err.png);
     background-position: center;
     filter: grayscale(90%);
     padding-block: 4.5rem !important;
