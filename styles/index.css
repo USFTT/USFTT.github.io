@@ -34,7 +34,7 @@
   }
   
   #WindowImg {
-    background-image: url(../images/homepage/bottom-image.jpg);
+    background-image: url(/images/homepage/bottom-image.jpg);
     background-size: cover;
     background-position: 50% 0%;
     background-attachment: fixed;
