@@ -1,6 +1,6 @@
 // Loading Header and Footer into files
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("./templates/header.html")
+  fetch("/templates/header.html")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((error) => console.error("Error loading the header:", error));
 
-  fetch("./templates/footer.html")
+  fetch("/templates/footer.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("footer-container").innerHTML = data;
