@@ -87,7 +87,7 @@
   }
   
   .image-container {
-    border: dashed red;
+    /* border: dashed red; */
     overflow: hidden;
     width: 25%;
     height: 80%;
@@ -97,7 +97,7 @@
   }
   
   .info-container {
-    border: dashed red;
+    /* border: dashed red; */
     width: 65%;
     height: 80%;
     margin-right: 4%;
