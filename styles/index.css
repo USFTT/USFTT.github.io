@@ -18,12 +18,20 @@
   }
 
   .officer {
-    width: 150%;
+    width: 130%;
     background-color: #EDEBD1;
     border-radius: 0 100vw 100vw 0;
-    gap: 2rem;
+    /* gap: 2rem; */
+    margin-bottom: 25px;
     padding-block: 2rem;
     padding-left: 9rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .officer p{
+    display: flex;
+    padding: 70px 0;
   }
 
   .officer img{
@@ -62,7 +70,13 @@
   
   @media (max-width: 896px) {
     .officer {
-      padding-left: 1.5rem;
+      flex-direction: column;
+      padding-left: 10px;
+    }
+
+    .officer p{
+      width: 90%;
+      padding: 0%;
     }
 
     .officer img {
