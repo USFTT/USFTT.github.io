@@ -7,6 +7,10 @@
   .navbar-nav .active.hr {
     display: none;
   }
+
+  .navbar-brand{
+    margin-left: 4.5rem;
+  }
   /* NAV BAR CSS END */
   
   
@@ -44,3 +48,14 @@
     color: gray;
   }
   /* SHARED CSS END*/
+
+  
+  /* RESPONSIVENESS */
+  @media (max-width: 896px) {
+    /* NAVBAR */
+    .navbar-brand{
+      margin-left: 0;
+    }
+    /* NAVBAR END */
+  }
+  /* RESPONSIVENESS END*/
